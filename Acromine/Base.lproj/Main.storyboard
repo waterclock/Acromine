@@ -91,7 +91,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wl-YV-K1d">
-                                    <rect key="frame" x="8" y="64" width="584" height="28"/>
+                                    <rect key="frame" x="8" y="70" width="584" height="28"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <nil key="highlightedColor"/>
@@ -99,10 +99,10 @@
                             </subviews>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             <constraints>
-                                <constraint firstItem="3wl-YV-K1d" firstAttribute="top" secondItem="J4G-In-63S" secondAttribute="top" constant="64" id="8UH-Ge-Snu"/>
+                                <constraint firstItem="3wl-YV-K1d" firstAttribute="top" secondItem="J4G-In-63S" secondAttribute="top" constant="70" id="8UH-Ge-Snu"/>
                                 <constraint firstItem="3wl-YV-K1d" firstAttribute="trailing" secondItem="th6-NT-8UO" secondAttribute="trailing" id="9as-AY-Zxo"/>
                                 <constraint firstAttribute="bottom" secondItem="th6-NT-8UO" secondAttribute="bottom" constant="16" id="Jwh-Ea-1yE"/>
-                                <constraint firstAttribute="bottom" secondItem="3wl-YV-K1d" secondAttribute="bottom" constant="6" id="SXT-kw-Q8J"/>
+                                <constraint firstAttribute="bottom" secondItem="3wl-YV-K1d" secondAttribute="bottom" id="SXT-kw-Q8J"/>
                                 <constraint firstItem="th6-NT-8UO" firstAttribute="top" secondItem="J4G-In-63S" secondAttribute="top" id="YYa-QE-Otq"/>
                                 <constraint firstItem="th6-NT-8UO" firstAttribute="leading" secondItem="J4G-In-63S" secondAttribute="leadingMargin" id="YxV-AY-nbd"/>
                                 <constraint firstItem="th6-NT-8UO" firstAttribute="trailing" secondItem="J4G-In-63S" secondAttribute="trailingMargin" id="aTu-7k-qbT"/>
