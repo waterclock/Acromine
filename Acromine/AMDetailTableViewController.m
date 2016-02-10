@@ -7,6 +7,7 @@
 //
 
 #import "AMDetailTableViewController.h"
+#import "Constants.h"
 
 @implementation AMDetailTableViewController
 
@@ -25,7 +26,10 @@
     NSNumber *since = [self.acronymDict valueForKey:@"since"];
     NSInteger variations = [[self.acronymDict objectForKey:@"vars"] count];
     
-    NSLog(@"AD = %@", self.acronymDict);
+    if(kVerboseMode) {
+        NSLog(@"Acronym dictionary = %@", self.acronymDict);
+    }
+    
     self.titleLabel.text = [self.acronymDict valueForKey:@"lf"];
     self.subtitleLabel.text = [NSString stringWithFormat:@"Frequency: %@ Since: %@ Variations: %lu", freq, since, variations];
     
