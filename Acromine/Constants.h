@@ -10,7 +10,7 @@
 #define Constants_h
 
 #define kAcromineServer     @"http://www.nactem.ac.uk/software/acromine/dictionary.py"
-#define kVerboseMode        1
+#define kVerboseMode        0
 #define kSearchInputDelay   1.0
 
 #endif /* Constants_h */
